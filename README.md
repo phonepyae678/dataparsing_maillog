@@ -4,5 +4,5 @@ Looking at mail ID format is
   sender ->   from=\<sample_sender_id@example.com\> ,
   recipient -> to=\<sample_recipiend_id@example.com\>
   
-Result will come out with the whole line which is cooresponding with input by sender mail ID or recipient mail ID are match.
+Result will come out with the whole line that is cooresponding with input by either sender mail ID or recipient mail ID which have been searching then matched in given file or log.
   
