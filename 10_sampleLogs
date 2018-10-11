@@ -1,0 +1,10 @@
+Sep 21 03:29:01 mta02 postfix/qmgr[16850]: 79450427776: removed
+Sep 21 03:29:01 mta02 postfix/cleanup[2314]: 61AE6427A04: message-id=<495E5B68-C1CB-D3CE-06C7-D9D58B206C42@mptmail.net.mm>
+Sep 21 03:29:01 mta02 postfix/qmgr[16850]: 61AE6427A04: from=<marina@mptmail.net.mm>, size=806, nrcpt=5 (queue active)
+Sep 21 03:29:01 mta02 amavis[2358]: (02358-01) ESMTP:[127.0.0.1]:10026 /opt/zimbra/data/amavisd/tmp/amavis-20180921T032901-02358-4oyXrqUF: <marina@mptmail.net.mm> -> <creativityplancom@gmail.com>,<funky389@gmail.com>,<ray88jay@gmail.com>,<ktd2912@hotmail.com>,<raja_barchalona@hotmail.com> Received: from smtp01.mpt.net.mm ([127.0.0.1]) by localhost (mta02.mpt.net.mm [127.0.0.1]) (amavisd-new, port 10026) with ESMTP; Fri, 21 Sep 2018 03:29:01 +0630 (MMT)
+Sep 21 03:29:01 mta02 amavis[2358]: (02358-01) Checking: UJa3rpdYVdS7 ORIGINATING [201.150.145.14] <marina@mptmail.net.mm> -> <creativityplancom@gmail.com>,<funky389@gmail.com>,<ray88jay@gmail.com>,<ktd2912@hotmail.com>,<raja_barchalona@hotmail.com>
+Sep 21 03:29:01 mta02 amavis[2358]: (02358-01) p001 1 Content-Type: text/plain, size: 202 B, name: 
+Sep 21 03:29:01 mta02 postfix/smtpd[25861]: 981D34279F5: filter: RCPT from unknown[189.14.193.59]: <marina@mptmail.net.mm>: Sender address triggers FILTER smtp-amavis:[127.0.0.1]:10026; from=<marina@mptmail.net.mm> to=<dheerajjoshi02@gmail.com> proto=ESMTP helo=<[127.0.0.1]>
+Sep 21 03:29:01 mta02 postfix/dkimmilter/smtpd[2466]: connect from localhost.localdomain[127.0.0.1]
+Sep 21 03:29:01 mta02 postfix/dkimmilter/smtpd[2466]: D7AB8427A05: client=localhost.localdomain[127.0.0.1]
+Sep 21 03:29:01 mta02 postfix/lmtp[1610]: A2B6E427A02: to=<marina@mptmail.net.mm>, relay=store01.mpt.net.mm[192.168.255.40]:7025, delay=0.25, delays=0.05/0.08/0.08/0.04, dsn=4.2.2, status=deferred (host store01.mpt.net.mm[192.168.255.40] said: 452 4.2.2 Over quota (in reply to end of DATA command))
